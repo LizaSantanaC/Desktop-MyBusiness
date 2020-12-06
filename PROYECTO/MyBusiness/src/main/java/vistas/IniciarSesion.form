@@ -107,6 +107,7 @@
                           </Group>
                           <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
                           <Component id="jSeparator3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jButton2" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
                   </Group>
@@ -133,6 +134,8 @@
                       <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" pref="32" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -264,6 +267,11 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="38" green="32" red="26" type="rgb"/>
                 </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jButton2"/>
               </Properties>
             </Component>
           </SubComponents>

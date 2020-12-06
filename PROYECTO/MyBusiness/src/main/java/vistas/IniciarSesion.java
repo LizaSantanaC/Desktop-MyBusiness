@@ -40,6 +40,7 @@ public class IniciarSesion extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -104,6 +105,8 @@ public class IniciarSesion extends javax.swing.JFrame {
         jSeparator3.setBackground(new java.awt.Color(38, 50, 56));
         jSeparator3.setForeground(new java.awt.Color(38, 50, 56));
 
+        jButton2.setText("jButton2");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -121,7 +124,8 @@ public class IniciarSesion extends javax.swing.JFrame {
                         .addGap(54, 54, 54)
                         .addComponent(jLabel6))
                     .addComponent(jSeparator2)
-                    .addComponent(jSeparator3))
+                    .addComponent(jSeparator3)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(91, 91, 91))
         );
         jPanel2Layout.setVerticalGroup(
@@ -145,6 +149,8 @@ public class IniciarSesion extends javax.swing.JFrame {
                 .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -225,6 +231,7 @@ public class IniciarSesion extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
