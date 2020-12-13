@@ -27,7 +27,7 @@ public class VentanaVentasAltas extends javax.swing.JFrame {
     private int codigoUltimaVenta;
     private ProductoDAO pDAO;
     private double subtotal;
-     private double total;
+    private double total;
      
     
     /**
